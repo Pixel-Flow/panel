@@ -31,66 +31,57 @@
             <div class="navbar">
                 <a href="/">NanoBot <sup class="text-badge white-badge">BETA</sup></a>
                 <a class="right" href="https://discord.me/nanobot"><i class="fa fa-life-ring"></i><t hidemob> Support</t></a>
-                <a class="right" href="/panel"><i class="fa fa-server"></i><t hidemob> Panel</t></a>
+                <a class="right" href="/panel/login"><i class="fa fa-sign-in"></i><t hidemob> Login</t></a>
             </div>
             <h1 style="padding-left: 10px; padding-top: 60px; text-align: left !important;">Panel</h1>
             <h2 style="padding-left: 10px; color: white;">Example Server Name</h2>
         </header>
         <div class="main" id="panel-main">
-            <div class="panel-links">
-                <div class="panel-links box ">
-                    <h1>Welcome</h1>
-                    <div class="border-box">
-                        <div class="border-box box">
-                            <p>Here you can enable and disable different features, manage custom commands and moderator actions, and more!</p>
-                            <p>If you need any help, check the collumn named "Support".</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-links box">
-                    <h1>Features</h1>
-                    <div class="border-box">
-                        <div class="border-box box" onclick="document.location = 'custom-commands';">
-                            <h2>Custom Commands</h2>
-                            <p>Add, edit, and delete custom commands here.</p>
-                        </div>
-                        <hr>
-                        <div class="border-box box" onclick="document.location = 'moderation';">
-                            <h2>Moderation</h2>
-                            <p>Enable and disable different moderation commands.</p>
-                        </div>
-                        <hr>
-                        <div class="border-box box" onclick="document.location = 'mod-logs';">
-                            <h2>Mod Logs</h2>
-                            <p>Track moderator actions such as bans and kicks.</p>
-                        </div>
-                        <hr>
-                        <div class="border-box box" onclick="document.location = 'music';">
-                            <h2>Music Player</h2>
-                            <p>Filter out certain keywords and URLs from being played.</p>
-                        </div>
-                        <hr>
-                        <div class="border-box box" onclick="document.location = 'welcome-msgs';">
-                            <h2>Welcome Messages</h2>
-                            <p>Display welcome (and/or leave) messages for new members that have joined (and/or left).</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="panel-links box">
-                    <h1>Support</h1>
-                    <div class="border-box">
-                        <div class="border-box box" onclick="document.location = 'https://discord.me/nanobot';">
-                            <h2>Discord</h2>
-                            <p>Our friendly support team can help you if you have an issue or a question.</p>
-                        </div>
-                        <hr>
-                        <div class="border-box box" onclick="document.location = 'https://nanomotion.github.io/NanoBot';">
-                            <h2>Documentation</h2>
-                            <p>Read the NanoBot documentation.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <a name="welcome"></a>
+            <h1>Welcome</h1>
+            <p>Here you can enable and disable different features, manage custom commands and moderator actions, and more!</p>
+            <p>If you need any help, check the <a href="#support">support list</a>.</p>
+            <hr>
+            <a name="features"></a>
+            <h1>Features</h1>
+            <ul class="topic-list">
+                <li class="topic">
+                    <a href="custom-commands">Custom Commands</a>
+                    <span hidemob class="description">Add, edit, and delete custom commands here.</span>
+                </li>
+                <li class="topic">
+                    <a href="moderation">Moderation</a>
+                    <span hidemob class="description">Enable and disable different moderation commands.</span>
+                </li>
+                <li class="topic">
+                    <a href="mod-logs">Mod Logs</a>
+                    <span hidemob class="description">Track moderator actions such as bans and kicks.</span>
+                </li>
+                <li class="topic">
+                    <a href="music">Music</a>
+                    <span hidemob class="description">Filter out certain keywords and URLs from being played.</span>
+                </li>
+                <li class="topic">
+                    <a href="welcome-msgs">Welcome Messages</a>
+                    <span hidemob class="description">Display welcome messages for new members that have joined.</span>
+                </li>
+            </ul>
+            <a name="support"></a>
+            <h1>Support</h1>
+            <ul class="topic-list">
+                <li class="topic">
+                    <a href="https://discord.me/nanobot">Discord</a>
+                    <span hidemob class="description">Our friendly support team can help you if you have an issue or a question.</span>
+                </li>
+                <li class="topic">
+                    <a href="https://nanomotion.github.io/NanoBot">Documentation</a>
+                    <span hidemob class="description">Read the NanoBot documentation.</span>
+                </li>
+                <li class="topic">
+                    <a href="mailto:support@nanomotion.xyz">Email</a>
+                    <span hidemob class="description">Email us at support@nanomotion.xyz.</span>
+                </li>
+            </ul>
         </div>
         <footer>
             <h2><img src="https://cdn.discordapp.com/icons/294215057129340938/18950bf3f5fa9d13fe5270d03842e23f.png" width="22" height="22" style="border-radius: 50%; position: relative; top: 3.5px;"> NanoBot</h2>
